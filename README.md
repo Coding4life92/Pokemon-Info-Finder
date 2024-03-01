@@ -1,6 +1,6 @@
 # Pokemon Info Finder
 
-* Search pokemon by their name or number.
+* Search Pokemon by their name or number.
 * Uses the PokeApi to fetch Pokemon.
 
 ## Result
