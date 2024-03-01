@@ -34,14 +34,14 @@ function displayPokemonData(data) {
       <td>
         <img src="${data.sprites.front_default}" style="height: 45px;"/>
       </td>
-    <tr>
+    </tr>
   `;
 }
 
 searchBtn.addEventListener("click", async () => {
   const id = searchInput.value.toLowerCase();
 
-  fetchPokemonData(id)
+  fetchPokemonData(id);
   try {
     const data = await fetchPokemonData(id);
     displayPokemonData(data);
